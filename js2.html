@@ -89,9 +89,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>JS: Basics and Tricky Questions</h1>        
-        <h2>Part -2: intermediate</h2>
-        <p>June 22, 2014</p>
+        <h1>JavaScript：基本問題與棘手問題</h1>        
+        <h2>第二部份：中階</h2>
+        <p>2014 年六月 22 日</p>
         <div id="fb-root"></div><div class="fb-like" data-href="http://www.thatjsdude.com/interview/js2.html" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div> &nbsp;<div class="g-plusone"></div>
      
       </div> 
@@ -103,22 +103,22 @@
         <!-- <iframe width="853" height="480" src="//www.youtube.com/embed/Rx_JFOSxgpY" frameborder="0" allowfullscreen></iframe> -->
       </div>
       <div>
-        <h4>List of Questions</h4>
+        <h4>問題大全</h4>
         <ol>
-          <li><a href="#nullVsUndefined">What are the differences between <code>null</code> and <code>undefined</code>?</a></li>
-          <li><a href="#doubleVsTripleEqual">What are the differences between <code>==</code> and <code>===</code>?</a></li>
-          <li><a href="#objectEquality">How would you compare two objects in JavaScript?</a></li>
-          <li><a href="#trueLies">11+ true false related questions that will trick you.</a></li>
-          <li><a href="#truthyVsEqality">As <code>[]</code> is true, <code>[]==true</code> should also be true. right?</a></li>
-          <li><a href="#extendObject">How could you write a method on instance of a date which will give you next day?</a></li>
-          <li class="skipListItem"><a href="#extendObject">If i have a <code>var str = 'hello world'</code>, how could i get <code>str.reverse()</code> return 'dlrow olleh'?</a></li>
-          <li class="skipListItem"><a href="#extendObject">How could you make this work [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5] ?</a></li>
-          <li value="7"><a href="#bindthis">If you want to use an arbitrary object as value of this, how will you do that?</a></li>          
-          <li class="skipListItem"><a href="#bindthis"> If an older browser dont have bind function, how will you shim it</a></li>
-          <li value="8"><a href="#call">Write a simple function to tell whether 2 is passed as parameter or not?</a></li>
-          <li><a href="#apply">How could you use Math.max to find the max value in an array?</a></li>
-          <li><a href="#this">What the heck is this in JavaScript?</a></li>
-          <li><a href="#rapidFire">21+ small but tricky questions</a></li>
+          <li><a href="#nullVsUndefined"> <code>null</code> 與 <code>undefined</code>有什麼不同？</a></li>
+          <li><a href="#doubleVsTripleEqual"> <code>==</code> 與 <code>===</code> 有什麼不同？</a></li>
+          <li><a href="#objectEquality">在 JavaScript 要怎麼比對兩個物件？</a></li>
+          <li><a href="#trueLies">11 個以上來坑你的 true false 值問題。</a></li>
+          <li><a href="#truthyVsEqality">因為 <code>[]</code> 是 true，所以 <code>[]==true</code> 也會是 true，對嗎？</a></li>
+          <li><a href="#extendObject">如何實做一個能給你明天日期的方法？</a></li>
+          <li class="skipListItem"><a href="#extendObject">如果我有個 <code>var str = 'hello world'</code>，要如何實做一個 <code>str.reverse()</code>，回傳 'dlrow olleh'？</a></li>
+          <li class="skipListItem"><a href="#extendObject">要如何實做一個 [1,2,3,4,5].duplicator(); // 給出： [1,2,3,4,5,1,2,3,4,5] ？</a></li>
+          <li value="7"><a href="#bindthis">如果你想用一個值是 this 的任意物件，怎麼做？</a></li>          
+          <li class="skipListItem"><a href="#bindthis"> 如果某個老舊的瀏覽器並沒有 bind 函式，怎麼辦？ </a></li>
+          <li value="8"><a href="#call"> 寫個簡單的函式來告訴我 2 是否作為參數傳遞？ </a></li>
+          <li><a href="#apply"> 要怎麼用 Math.max 找出陣列的最大值？ </a></li>
+          <li><a href="#this"> JavaScript 的 this 到底是啥鬼？ </a></li>
+          <li><a href="#rapidFire"> 21 個以上來坑你的簡答題。 </a></li>
           <li><a href="#insertSpace">How could you set a prefix before everything you log? for example, if you log('my message') it will log: "(app) my message"</a></li>
           <li><a href="#scopeAndHoisting">What will you see in the console for the following example?</a></li>
           <li><a href="#closure">Look at the code below, you have a for loop if you have setTimeout inside it. If log the loop counter inside setTimeout, what will be logged?</a></li>
@@ -132,42 +132,42 @@
         </ol>
       </div>     
       <!-- <p class="gray">if you are little more comfortable or claim to be comfortable with javascript, these questions would not be enough for you. more coming</p>-->
-      <p class="gray"> <span class="purpleBold">More Questions: </span><a href="js1.html">Algorithm related questions</a>, <a href="dom.html">dom related</a>, <a href="css.html">css related</a>, <a href="html.html">html related</a> </p> 
+      <p class="gray"> <span class="purpleBold">其他問題：</span><a href="js1.html">演算法相關問題</a>、 <a href="dom.html">DOM 相關問題</a>、<a href="css.html">CSS 相關問題</a>、<a href="html.html">HTML 相關問題</a>。</p> 
       <div id="nullVsUndefined">
         <h2>1. null vs undefined</h2>
-        <p><strong>Question: </strong> What are the differences between <code>null</code> and <code>undefined</code>?</p>
-        <p><strong>Answer:</strong> JavaScript has two distinct values for nothing, null and undefined.</p>
+        <p><strong>問題：</strong> <code>null</code> 與 <code>undefined</code> 有什麼不同？</p>
+        <p><strong>解答：</strong> JavaScript 針對「什麼都沒有」有兩種不同的數值： null 與 undefined。</p>
         <h4>undefined</h4>
-        <p><code>undefined</code> means, value of the variable is not defined. JavaScript has a global variable <code>undefined</code> whose value is "undefined" and <code>typeof undefined</code> is also "undefined". Remember, undefined is not a constant or a keyword. undefined is a type with exactly one value: undefined. Assigning a new value to it does not change the value of the type undefined.</p>
-        <strong>8 Ways to get Undefined:</strong>
+        <p><code>undefined</code> 的意思是，該變數的數值並未被定義。JavaScript 還有個全域變數 <code>undefined</code>，其值為「undefined」、<code>typeof undefined</code> 的值也是「undefined」。請記得 undefined 既不是常數也不是關鍵詞，undefined 這型別就只有一個值：undefined。就算給 undefined 型別指派一個新值，它的任何值也不會改變。</p>
+        <strong>八個理解 Undefined 的方法：</strong>
         <ul>
-          <li>A declared variable without assigning any value to it.</li>
-          <li>Implicit returns of functions due to missing return statements.</li>
-          <li>return statements that do not explicitly return anything.</li>
-          <li>Lookups of non-existent properties in an object.</li>
+          <li>一個沒有指派任何新值的變數。</li>
+          <li>函式的隱式回傳，因為該函式並沒有宣告 return。</li>
+          <li>在沒有明確回傳任何東西的語法下所回傳的值。</li>
+          <li>在物件裡面尋求不存在的屬性。</li>
           <li>Function parameters that have not passed.</li>
-          <li>Anything that has been set to the value of undefined.</li>
-          <li>Any expression in the form of void(expression)</li>
-          <li>The value of the global variable <code>undefined</code></li>          
+          <li>任何設為 undefined 的值。</li>
+          <li>任何 void(expression) 形式的表達式</li>
+          <li>全域變數 <code>undefined</code> 的值。</li>
         </ul>
         <h4>null</h4>
-        <p><code>null</code> means empty or non-existent value which is used by programmers to indicate “no value”. null is a primitive value and you can assign null to any variable. null is not an object, it is a primitive value. For example, you cannot add properties to it. Sometimes people wrongly assume that it is an object, because typeof null returns "object".</p>
-        <p>Btw, <code>null == undefined</code> ref: <a href="http://www.2ality.com/2013/10/typeof-null.html">history of typeof null</a></p>
+        <p><code>null</code> 意思是空的或不存在的值，程式設計師用其表明「沒有數值」。null 是個原始值，你可以給它 null 指派任何新值。null 並不是物件，它是個原始值。像是，你不能給它增加屬性。在這裡，有些人會因為 typeof null 回傳 "object" 而想錯。</p>
+        <p>另外，<code>null == undefined</code>。請參考：<a href="http://www.2ality.com/2013/10/typeof-null.html">history of typeof null</a></p>
       </div>      
         <div id="doubleVsTripleEqual">
           <h2>2. == Vs ===</h2>
-          <p><strong>Question:</strong> What are the differences between <code>==</code> and <code>===</code>?</p>
-          <p><strong>Answer: </strong> The simplest way of saying it is that == will not check types and === will check whether both sides are of the same type. So, == is tolerant. But under the hood it converts to a convenient type, in order to have both as the same type, and then does the comparison.</p>
-          <p>=== compares the types and values. Hence, if both sides are not same type, the answer is always false. For example, if you are comparing two strings, they must have identical character sets. For other primitives (number, boolean), they must share the same value.</p>
-          <p><strong>Rule for implicit coercion:</strong> Comparison by using == does implicit type conversion under the hood. The rules for implicit coercion are as follows-</p>
+          <p><strong>問題：</strong> <code>==</code> 與 <code>===</code> 有什麼不同？ </p>
+          <p><strong>解答：</strong>簡單來說，== 不會檢查等號兩邊的型別是否相同、而 === 則會。因此，== 比較寬容。但為了讓他們擁有相同型別以利比較，在 hood 之下會做簡單的型別轉換。</p>
+          <p>=== 比較了型別與值。所以，若兩邊型別不相同，答案會永遠都是 false。例如說，若你比較兩個字串，他們必須用上相同的字符集。針對其他的 primitives（例如數字或布林值），則要有相同的值。</p>
+          <p><strong>隱式強制規則：</strong> 使用 == 來比較，會在 hood 之下強制型別轉換。隱式強制規則則如下面所述：</p>
           <ul>
-            <li>If both operands are same type use ===</li>
+            <li>如果兩個運算數在使用 === 的時候，有相同的型別</li>
             <li>undefined == null</li>
-            <li>If one operands is string another is number, convert string to number</li>
-            <li>If one is boolean and another is non-boolean, convert boolean to number and then perform comparison</li>
-            <li>While comparing a string or number to an object, try to convert the object to a primitive type and then try to compare</li>
+            <li>如果一個運算數是字串、另一個是數字，就把字串轉換為數字。</li>
+            <li>如果一個是布林值、另一個不是布林值，就把布林值轉換為數字、接著比較。</li>
+            <li>要和一個物件比較一個字串或數字的話，就會試著把物件轉換為原始類型、接著比較。</li>
           </ul>
-          <p>Be careful while comparing objects — identifiers must reference the same objects or same array.</p>
+          <p>比較物件的時候要小心──標識符必須引用相同的物件或陣列。</p>
           <pre><code>
 var a = {a: 1};
 var b = {a: 1};
@@ -177,15 +177,16 @@ a === b //false
 var c = a;
 a == c//true
 a === c //true
-          </code></pre>          
-          <p>Special note:  NaN, null and undefined will never === another type. NaN does not even === itself.</p>          
-          <p><strong>Homework:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"> Read confusing special cases of NaN</a></p>
+          </code></pre>
+          <p>特別注意：NaN、null、undefined 與其他型別 === 永遠不是 true。NaN 連自己都不能 ===。</p>
+          <p><strong>回家作業：</strong>
+          <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/isNaN">讀讀 NaN 一些容易混淆的特殊情況。</a></p>
         </div>
         <div id="objectEquality">
-        <h2>3. Object Equality</h2> 
-        <p><strong>Question: </strong> How would you compare two objects in JavaScript?</p>
-        <p><strong>Basics:</strong> JavaScript has two different approaches for testing equality. Primitives like strings and numbers are compared by their value, while objects like arrays, dates, and user defined objects are compared by their reference. This means it compares whether two objects are referring to the same location in memory.</p>
-        <p><strong>Answer:</strong> Equality check will check whether two objects have the same value for the same property. To check that, you can get the keys for both the objects. If the number of properties doesn't match, these two objects are not equal. Secondly, you will check whether each property has the same value in both objects. If all the properties have the same value, they are equal.</p>
+        <h2>3. 物件等值</h2> 
+        <p><strong>問題：</strong>在 JavaScript 要怎麼比對兩個物件？</p>
+        <p><strong>基礎：</strong>JavaScript 有兩種不同的方法檢查等值與否：像字串與數字的原始值，可以透過它們的值比對；而諸如陣列、日期、用戶自定義的物件，則是透過它們的參照（reference）比對。這意味著比對兩個物件的方法，是去參照兩者的記憶體位置是否相同。</p>
+        <p><strong>解答：</strong>等值檢查會去檢查兩個相同的物件屬性，是否擁有相同的物件值。要檢查的話，你可以透過取得物件的 key 來完成：如果物件屬性的數量不同，它們就不一樣。接著，你可以檢查兩個物件的每個屬性，是否擁有相同的物件值。如果所有的屬性都有相同的值，它們就是相同的。</p>
         <pre><code>
 function isEqual(a, b) {
     var aProps = Object.getOwnPropertyNames(a),
@@ -205,61 +206,61 @@ function isEqual(a, b) {
     return true;
 }
         </code></pre>
-        <strong>Limitation:</strong> 
+        <strong>這方法針對以下情形力所未逮：</strong> 
           <ul>
-            <li>If one of the property values is itself an object</li>
-            <li>If one of the property values is NaN (the only value in JavaScript that is not equal to itself?)</li>
-            <li>If one object has a property with value undefined, while another object doesn't have the property (which thus evaluates as undefined). Btw, you can solve this problem by using hasOwnProperty</li>
+            <li>如果某個物件的屬性值是它自己。</li>
+            <li>如果某個物件的屬性值是 NaN（JavaScript 唯一一個自己不等於自己的值？）</li>
+            <li>如果某個物件屬性的值是 undefined、而另一個物件並沒有這個屬性（也就是說這兩個都是 undefined）另外，你可以用 hasOwnProperty 來解決這個問題。</li>
           </ul>
-        <p>ref: <a href="http://designpepper.com/blog/drips/object-equality-in-javascript.html">object equality in JS</a>, <a href="http://underscorejs.org/docs/underscore.html#section-90">Underscore.js isEqual function</a></p>
+        <p>參見：<a href="http://designpepper.com/blog/drips/object-equality-in-javascript.html">object equality in JS</a>, <a href="http://underscorejs.org/docs/underscore.html#section-90">Underscore.js isEqual function</a></p>
       </div>
       <div id="trueLies">
-        <h2>4. True Lies</h2>
-        <p><strong>Question:</strong> 11+ true false related questions that will trick you.</p>
-        <p><strong>falsy:</strong> In javascript 6 things are falsy and they are- false, null, undefined, '', 0, NaN</p>
-        <p><strong>truthy:</strong> There are only two truthy things- true and everything that is not false</p>
+        <h2>4. 真的假得了</h2>
+        <p><strong>問題：</strong>11 個以上來坑你的 true false 值問題。</p>
+        <p><strong>假值（falsy）：</strong>在 JavaScript 裡面有六個值為假值：false、null、undefined、''、0、NaN</p>
+        <p><strong>真值（truthy）：</strong>有兩個東西是真值：true 與任何不是假值的值。</p>
         <div>
-          <h3>True False Rapid Fire</h3>
+          <h3>True False 快問快答</h3>
           <div id="trueFalseRapidExample" class="bg-success toggleContent">            
-            <p><strong>Question:</strong> Is <code>'false'</code> is false?</p>
-            <p><strong>Answer:</strong> No. Because, it's a string with length greater than 0. Only empty string is false.</p>
-            <p><strong>Question:</strong> Is <code>' '</code> is false?</p>
-            <p><strong>Answer:</strong> No. Because, it's not an empty string. There is a white space in it. </p>
-            <p><strong>Question: </strong>What about <code>{}</code>?</p>
-            <p><strong>Answer: </strong>true. It's an object. An object without any property is an object can't be falsy.</p>
-            <p><strong>Question: </strong>Tell me about <code>[]</code>?</p>
-            <p><strong>Answer: </strong> This is also truthy. It's an array object (array is child of object) is truthy.</p>
-            <p><strong>Question: </strong>You talked bout <code>''</code> to be falsy. What about <code>new String('')</code>? </p>
-            <p><strong>Answer:</strong> Though you are passing empty string to the string constructor, it is creating an String object. More precisely a instance of String object. It becomes an object. Hence, it is not false. so, it is truthy.</p>
-            <p><strong>Question:</strong> Tell me about <code>new Boolean(false)</code></p>
-            <p><strong>Answer:</strong> truthy. As it creates an instance of the Boolean object which is an object. Object is truthy.</p>
-            <p><strong>Question: </strong> <code>Boolean(function(){})</code></p>
-            <p><strong>Answer: </strong> <code>true</code> if you pass a truthy value to Boolean, it will be true.</p>
-            <p><strong>Question: </strong> <code>Boolean(/foo/)</code></p>
-            <p><strong>Answer: </strong> <code>true</code></p>
-            <P><strong>Question:</strong> <code>true%1</code></P>
-            <P><strong>Answer:</strong> 0. When you are trying to find reminder of true, true becomes 1 and reminder of 1 while dividing by 1 is 0. You will get same result if you do <code>false%1</code></P>
-            <P><strong>Question:</strong> <code>''%1</code></P>
-            <P><strong>Answer:</strong> 0</P>
+            <p><strong>問題：</strong><code>'false'</code> 是 false 嗎？</p>
+            <p><strong>解答：</strong>不是。因為這個字串的長度大於 0。只有空字串才是 false。</p>
+            <p><strong>問題：</strong><code>' '</code> 是 false 嗎？</p>
+            <p><strong>解答：</strong>不是，它不是空字串。它有空白這字串。</p>
+            <p><strong>問題：</strong>那 <code>{}</code> 呢？</p>
+            <p><strong>解答：</strong>true。它是個物件，而沒有任何屬性的物件不能是假值。</p>
+            <p><strong>問題：</strong>談談 <code>[]</code> 吧？</p>
+            <p><strong>解答：</strong>這也是真值：陣列物件（陣列是物件的 child）是真值。</p>
+            <p><strong>問題：</strong>你說 <code>''</code> 是假值，那 <code>new String('')</code> 呢？</p>
+            <p><strong>解答：</strong>雖然你透過字串建構子（string constructor）建立一個空字串，但它是個字串物件。更確切地說，是字串物件的實例。因此，它不是 false、所以是真值。</p>
+            <p><strong>問題：</strong>說說看 <code>new Boolean(false)</code> 吧。</p>
+            <p><strong>解答：</strong>真值。它實際創建了「布林物件」（Boolean object）這個物件。而物件，是真值。</p>
+            <p><strong>問題：</strong><code>Boolean(function(){})</code></p>
+            <p><strong>解答：</strong><code>true</code>：如果你給布林一個真值，那它就是 true。</p>
+            <p><strong>問題：</strong><code>Boolean(/foo/)</code></p>
+            <p><strong>解答：</strong><code>true</code></p>
+            <P><strong>問題：</strong><code>true%1</code></P>
+            <P><strong>解答：</strong>0。你想找出 true 的餘數，true 就會變成 1、而 1 除以 1 的餘數就是 0。<code>false%1</code> 會得到相同的結果。</P>
+            <P><strong>問題：</strong><code>''%1</code></P>
+            <P><strong>解答：</strong>0</P>
           </div>
         </div>
         <div id="truthyVsEqality">
-          <h2>5. Truthy isn't Equal to true</h2>
-        <p><strong>Question: </strong> As <code>[]</code> is true, <code>[]==true</code> should also be true. right?</p>
-          <p><strong>Answer:</strong> You are right about first part, <code>[]</code>, empty array is an object and object is always truthy. Hence, if you use <code>if([]){console.log('its true')}</code> you will see the log.</p>
-          <p>However, special case about <code>==</code> (double equal) is that it will do some implicit coercion.</p>
-          <p>Since the left and right sides of the equality are two different types, JavaScript can't compare them directly. Hence, under the hood, JavaScript will convert them to compare. First, the right side of the equality will be cooereced to a number and number of <code>true</code> would be 1.</p>
-          <p>After that, JavaScript implementation will try to convert <code>[]</code> by using<code>toPrimitive</code> (of JavaScript implementation). Since <code>[].valueOf</code> is not primitive, it will use <code>toString</code> and will get <code>""</code></p>
-          <p> Now you are comparing "" == 1 and still, the left and right are not the same type. Hence, the left side will be converted again to a number and empty string will be 0.</p>
-          <p>Finally, they are of same type. You are comparing <code>0 === 1</code> which will be false.</p>
-          <p>ref: <a href="http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/">angus croll: truth and eqality in JS</a>, ref: <a href="http://www.sitepoint.com/javascript-truthy-falsy/">truthy and falsy</a></p>
+          <h2>5. 真的真不了</h2>
+        <p><strong>問題：</strong>因為 <code>[]</code> 是 true，所以 <code>[]==true</code> 也會是 true，對嗎？</p>
+        <p><strong>解答：</strong>第一個是對的，<code>[]</code>，亦即空陣列，是個物件。而物件永遠是真值。因此如果輸入 <code>if([]){console.log('its true')}</code>，你會看到「its true」這個 log。</p>
+        <p>不過，到了兩個等號 <code>==</code> 的時候，它會開始做一些隱藏的強制轉換。</p>
+        <p>因為左右兩邊的型別不同，JavaScript 不能直接比對。所以在 hood 底下，JavaScript 會先轉換型別以利比對。首先，等號右邊會先被強制轉換為數字、而 <code>true</code> 的數字是 1。</p>
+        <p>接著，JavaScript 實行（JavaScript implementation）會試圖透過其自身的 <code>toPrimitive</code> 轉換 <code>[]</code>。因為 <code>[].valueOf</code> 不是 primitive，它會使用 <code>toString</code> 並得出 <code>""</code>。</p>
+        <p>現在開始比對 "" == 1 了……不過兩邊的型別，依舊是不相同的。所以，左邊的空字串會再度轉換其型別，其結果為 0。</p>
+        <p>終於，兩邊的型別相同了。而你正在比對 <code>0 === 1</code>，結果自然是 false。</p>
+        <p>參閱：<a href="http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/">angus croll: truth and eqality in JS</a>, ref: <a href="http://www.sitepoint.com/javascript-truthy-falsy/">truthy and falsy</a></p>
       </div>
 
       </div>                  
       <div id="extendObject">
         <h2>6. Extend Core Object</h2>
-        <p><strong>Question:</strong> How could you write a method on an instance of a date which will give you the next day?</p>
-        <p><strong>Answer:</strong> I have to declare a method on the prototype of Date object. To get access to the current value of the instance of the date, i will use <code>this</code></p>
+        <p><strong>問題：</strong> How could you write a method on an instance of a date which will give you the next day?</p>
+        <p><strong>解答：</strong> I have to declare a method on the prototype of Date object. To get access to the current value of the instance of the date, i will use <code>this</code></p>
         <pre><code>
 Date.prototype.nextDay = function(){
   var currentDate = this.getDate();
@@ -273,8 +274,8 @@ date.nextDay();//Sat May 17 2014 20:47:14 GMT-0500 (Central Daylight Time)
         <div>
           <button id = "extendCoreObjectMore" type="button" class="toggleExample btn btn-primary">Show Similar Question</button>
           <div id="extendCoreObjectMoreExample" class="hide bg-success toggleContent">
-            <p><strong>Question: </strong> If i have a <code>var str = 'hello world'</code>, how could i get <code>str.reverse()</code> return 'dlrow olleh'? </p>
-            <p><strong>Answer:</strong> You have to extend the core String Object</p>
+            <p><strong>問題： </strong> If i have a <code>var str = 'hello world'</code>, how could i get <code>str.reverse()</code> return 'dlrow olleh'? </p>
+            <p><strong>解答：</strong> You have to extend the core String Object</p>
             <pre><code>
 String.prototype.reverse = function(){
 return this.split('').reverse().join('');
@@ -283,8 +284,8 @@ return this.split('').reverse().join('');
 var str = 'hello world';
 str.reverse();//"dlrow olleh"
             </code></pre>
-            <p><strong>Question: </strong> How could you make this work [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5] ?</p>
-            <p><strong>Answer:</strong> We need to add a method in the prototype of Array object.</p>
+            <p><strong>問題： </strong> How could you make this work [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5] ?</p>
+            <p><strong>解答：</strong> We need to add a method in the prototype of Array object.</p>
             <pre><code>
 Array.prototype.duplicator = function(){
   return this.concat(this);  
@@ -298,8 +299,8 @@ Array.prototype.duplicator = function(){
       </div>
       <div id="bindthis">
         <h2>7. bind</h2>
-        <p><strong>Question: </strong>If you want to use an arbitrary object as value of <code>this</code>, how will you do that?</p>
-        <p><strong>Answer:</strong> There are at least three different ways to doing this by using bind, call and apply. For example, I have a method named deductMontlyFee in the object monica and by default value of this would be monica inside the method.</p>
+        <p><strong>問題： </strong>If you want to use an arbitrary object as value of <code>this</code>, how will you do that?</p>
+        <p><strong>解答：</strong> There are at least three different ways to doing this by using bind, call and apply. For example, I have a method named deductMontlyFee in the object monica and by default value of this would be monica inside the method.</p>
         <pre><code>
 var monica = {
   name: 'Monica Geller',
@@ -327,8 +328,8 @@ rossFeeDeductor(); //"Ross Geller remaining balance is 200"
 
 rachelFeeDeductor(); //"Rachel Green remaining balance is 900"
         </code></pre>
-        <p><strong>Question:</strong> If an older browser dont have bind function, how will you shim it</p>
-        <p><strong>Answer:</strong> Look at the code below and use your brain.</p>
+        <p><strong>問題：</strong> If an older browser dont have bind function, how will you shim it</p>
+        <p><strong>解答：</strong> Look at the code below and use your brain.</p>
         <pre><code>
 Function.prototype.bind = Function.prototype.bind || function(context){
   var self = this;
@@ -340,9 +341,9 @@ Function.prototype.bind = Function.prototype.bind || function(context){
       </div>
       <div id="call">
         <h2>8. arguments and call</h2>
-        <p><strong>Question:</strong> Write a simple function to tell whether 2 is passed as parameter or not?</p>
+        <p><strong>問題：</strong> Write a simple function to tell whether 2 is passed as parameter or not?</p>
         <p><strong>Basics:</strong> arguments is a local variable, available inside all functions that provides a collection of all the arguments passed to the function. <code>arguments</code> is not an array rather an array like object. It has length but doesn't have the methods like forEach, indexOf, etc. </p>
-        <p><strong>Answer: </strong>First convert arguments to an array by calling slice method on an array and pass arguments. After that simply use indexOf.</p>
+        <p><strong>解答： </strong>First convert arguments to an array by calling slice method on an array and pass arguments. After that simply use indexOf.</p>
         <pre><code>
 function isTwoPassed(){
   var args = Array.prototype.slice.call(arguments);
@@ -356,8 +357,8 @@ isTowPassed(5,3,1,2) //true
       </div>
       <div id="apply">
         <h2>9. apply</h2>
-        <p><strong>Question:</strong> How could you use Math.max to find the max value in an array?</p>
-        <p><strong>Answer:</strong> Use apply on Math.max and pass the array as apply takes an array of arguments. Since we are not reading anything from this or using it at all. We can simply pass null as first parameter.</p>
+        <p><strong>問題：</strong> How could you use Math.max to find the max value in an array?</p>
+        <p><strong>解答：</strong> Use apply on Math.max and pass the array as apply takes an array of arguments. Since we are not reading anything from this or using it at all. We can simply pass null as first parameter.</p>
         <pre><code>
 function getMax(arr){
   return Math.max.apply(null, arr);  
@@ -368,8 +369,8 @@ function getMax(arr){
       </div>
       <div id="this">
         <h2>10. this</h2>
-        <p><strong>Question:</strong> What the heck is <code>this</code> in JavaScript?</p>
-        <p><strong>Answer:</strong> At the time of execution of every function, JavaScript engine sets a property to the function called <code>this</code> which refer to the current execution context. <code>this</code> is always refer to an object and depends on how function is called. There are 7 different cases where the value of <code>this</code> varies.</p>
+        <p><strong>問題：</strong> What the heck is <code>this</code> in JavaScript?</p>
+        <p><strong>解答：</strong> At the time of execution of every function, JavaScript engine sets a property to the function called <code>this</code> which refer to the current execution context. <code>this</code> is always refer to an object and depends on how function is called. There are 7 different cases where the value of <code>this</code> varies.</p>
         <ol>
           <li>In the global context or inside a function this refers to the window object.</li>
           <li>Inside IIFE (immediate invoking function) if you use "use strict", value of this is undefined. To pass access window inside IIFE with "use strict", you have to pass this.</li>
@@ -383,67 +384,67 @@ function getMax(arr){
       </div>  
       <div id="rapidFire">
         <h2>11. Rapid Fire</h2>
-        <p><strong>Question:</strong> What is <code>typeof []</code></p>
-        <p><strong>Answer:</strong> Object. Actually Array is derived from Object. If you want to check array use <code>Array.isArray(arr)</code></p>
-        <p><strong>Question:</strong> What is <code>typeof arguments</code></p>
-        <p><strong>Answer:</strong> Object. arguments are array like but not array. it has length, can access by index but can't push pop, etc.</p>
-        <p><strong>Question:</strong> What is <code>2+true</code></p>
-        <p><strong>Answer:</strong> 3. The plus operator between a number and a boolean or two boolean will convert boolean to number. Hence, true converts to 1 and you get result of 2+1 </p>
-        <p><strong>Question:</strong> What is <code>'6'+9</code></p>
-        <p><strong>Answer:</strong> 69. If one of the operands of the plus (+) operator is string it will convert other number or boolean to string and perform a concatenation. For the same reason, <code>"2"+true</code> will return "2true"</p>
-        <p><strong>Question:</strong> What is the value of <code>4+3+2+"1"</code></p>
-        <p><strong>Answer:</strong> 91 . The addition starts from the left, 4+3 results 7 and 7+2 is 9. So far, the plus operator is performing addition as both the operands are number. After that 9 + "1" where one of the operands is string and plus operator will perform concatenation.</p>
-        <p><strong>Question:</strong> What is the value of <code>"1"+2+4</code></p>
-        <p><strong>Answer:</strong> "124". For this one "1" + 2 will produce "12" and "12"+4 will generates "124".</p>
-        <p><strong>Question:</strong> What is the value of <code>-'34'+10</code></p>
-        <p><strong>Answer:</strong> -24. minus(-) in front of a string is an unary operator that will convert the string to a number and will make it negative. Hence, -'34' becomes, -34 and then plus (+) will perform simple addition as both the operands are number.</p>
-        <p><strong>Question:</strong> What is the value of <code>+'dude'</code></p>
-        <p><strong>Answer:</strong> NaN. The plus (+) operator in front of a string is an unary operator that will try to convert the string to number. Here, JavaScript will fail to convert the "dude" to a number and will produce NaN.</p>
-        <p><strong>Question:</strong> If you have <code>var y = 1, x = y = typeof x;</code> What is the value of x?</p>
-        <p><strong>Answer:</strong> "undefined"</p>
-        <p><strong>Question:</strong> for <code>var a = (2, 3, 5);</code> what is the value of a?</p>
-        <p><strong>Answer:</strong> 5. The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand. ref: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator">MDN</a></p>
-        <p><strong>Question:</strong> for <code>var a = (1, 5 - 1) * 2</code> what is the value of a?</p>
-        <p><strong>Answer:</strong> 8</p>
-        <p><strong>Question:</strong> What is the value of <code>!'bang'</code></p>
-        <p><strong>Answer:</strong> false. <code>!</code> is NOT. If you put <code>!</code> in front of truthy values, it will return false. Using !! (double bang) is a tricky way to check anything truthy or falsy by avoiding implicit type conversion of == comparison.</p>
-        <p><strong>Question:</strong> What is the value of <code>parseFloat('12.3.4')</code></p>
-        <p><strong>Answer:</strong> 12.3</p>
-        <p><strong>Question:</strong> What is the value of <code>Math.max([2,3,4,5]);</code></p>
-        <p><strong>Answer:</strong> NaN</p>
-        <p><strong>Question:</strong> <code>3 instanceof Number</code></p>
-        <p><strong>Answer:</strong> false</p>
-        <p><strong>Question:</strong><code>null == undefined</code></p>
-        <p><strong>Answer:</strong> true</p>
-        <p><strong>Question:</strong>What is the value of <code>!!function(){};</code></p>
-        <p><strong>Answer:</strong> true</p>
-        <p><strong>Question:</strong> What is the value of <code>typeof bar</code></p>
-        <p><strong>Answer:</strong> "undefined"</p>
-        <p><strong>Question:</strong> What is the value of <code>typeof null</code></p>
-        <p><strong>Answer:</strong> "object"</p>
-        <p><strong>Question:</strong> If <code> var a = 2, b =3</code> what would be value of <code>a && b</code></p>
-        <p><strong>Answer:</strong> 3</p>
-        <p><strong>Question:</strong> What would be consoled <code>var foo = 'outside'; function logIt(){console.log(foo); var foo = 'inside';} logIt();</code></p>
-        <p><strong>Answer:</strong> undefined</p>
-        <p><strong>Question:</strong> What is <code>-5%2</code></p>
-        <p><strong>Answer:</strong>-1. the result of remainder always get the symbol of first operand</p>
-        <p><strong>Question:</strong> Why <code>.1+.2 != .3</code> </p>
-        <p><strong>Answer:</strong> </p>
-        <p><strong>Question: <code>42..toString()</code></strong></p>
+        <p><strong>問題：</strong> What is <code>typeof []</code></p>
+        <p><strong>解答：</strong> Object. Actually Array is derived from Object. If you want to check array use <code>Array.isArray(arr)</code></p>
+        <p><strong>問題：</strong> What is <code>typeof arguments</code></p>
+        <p><strong>解答：</strong> Object. arguments are array like but not array. it has length, can access by index but can't push pop, etc.</p>
+        <p><strong>問題：</strong> What is <code>2+true</code></p>
+        <p><strong>解答：</strong> 3. The plus operator between a number and a boolean or two boolean will convert boolean to number. Hence, true converts to 1 and you get result of 2+1 </p>
+        <p><strong>問題：</strong> What is <code>'6'+9</code></p>
+        <p><strong>解答：</strong> 69. If one of the operands of the plus (+) operator is string it will convert other number or boolean to string and perform a concatenation. For the same reason, <code>"2"+true</code> will return "2true"</p>
+        <p><strong>問題：</strong> What is the value of <code>4+3+2+"1"</code></p>
+        <p><strong>解答：</strong> 91 . The addition starts from the left, 4+3 results 7 and 7+2 is 9. So far, the plus operator is performing addition as both the operands are number. After that 9 + "1" where one of the operands is string and plus operator will perform concatenation.</p>
+        <p><strong>問題：</strong> What is the value of <code>"1"+2+4</code></p>
+        <p><strong>解答：</strong> "124". For this one "1" + 2 will produce "12" and "12"+4 will generates "124".</p>
+        <p><strong>問題：</strong> What is the value of <code>-'34'+10</code></p>
+        <p><strong>解答：</strong> -24. minus(-) in front of a string is an unary operator that will convert the string to a number and will make it negative. Hence, -'34' becomes, -34 and then plus (+) will perform simple addition as both the operands are number.</p>
+        <p><strong>問題：</strong> What is the value of <code>+'dude'</code></p>
+        <p><strong>解答：</strong> NaN. The plus (+) operator in front of a string is an unary operator that will try to convert the string to number. Here, JavaScript will fail to convert the "dude" to a number and will produce NaN.</p>
+        <p><strong>問題：</strong> If you have <code>var y = 1, x = y = typeof x;</code> What is the value of x?</p>
+        <p><strong>解答：</strong> "undefined"</p>
+        <p><strong>問題：</strong> for <code>var a = (2, 3, 5);</code> what is the value of a?</p>
+        <p><strong>解答：</strong> 5. The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand. ref: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator">MDN</a></p>
+        <p><strong>問題：</strong> for <code>var a = (1, 5 - 1) * 2</code> what is the value of a?</p>
+        <p><strong>解答：</strong> 8</p>
+        <p><strong>問題：</strong> What is the value of <code>!'bang'</code></p>
+        <p><strong>解答：</strong> false. <code>!</code> is NOT. If you put <code>!</code> in front of truthy values, it will return false. Using !! (double bang) is a tricky way to check anything truthy or falsy by avoiding implicit type conversion of == comparison.</p>
+        <p><strong>問題：</strong> What is the value of <code>parseFloat('12.3.4')</code></p>
+        <p><strong>解答：</strong> 12.3</p>
+        <p><strong>問題：</strong> What is the value of <code>Math.max([2,3,4,5]);</code></p>
+        <p><strong>解答：</strong> NaN</p>
+        <p><strong>問題：</strong> <code>3 instanceof Number</code></p>
+        <p><strong>解答：</strong> false</p>
+        <p><strong>問題：</strong><code>null == undefined</code></p>
+        <p><strong>解答：</strong> true</p>
+        <p><strong>問題：</strong>What is the value of <code>!!function(){};</code></p>
+        <p><strong>解答：</strong> true</p>
+        <p><strong>問題：</strong> What is the value of <code>typeof bar</code></p>
+        <p><strong>解答：</strong> "undefined"</p>
+        <p><strong>問題：</strong> What is the value of <code>typeof null</code></p>
+        <p><strong>解答：</strong> "object"</p>
+        <p><strong>問題：</strong> If <code> var a = 2, b =3</code> what would be value of <code>a && b</code></p>
+        <p><strong>解答：</strong> 3</p>
+        <p><strong>問題：</strong> What would be consoled <code>var foo = 'outside'; function logIt(){console.log(foo); var foo = 'inside';} logIt();</code></p>
+        <p><strong>解答：</strong> undefined</p>
+        <p><strong>問題：</strong> What is <code>-5%2</code></p>
+        <p><strong>解答：</strong>-1. the result of remainder always get the symbol of first operand</p>
+        <p><strong>問題：</strong> Why <code>.1+.2 != .3</code> </p>
+        <p><strong>解答：</strong> </p>
+        <p><strong>問題： <code>42..toString()</code></strong></p>
         <p><strong>Anwser:</strong> <code>"42"</code></p>
-        <p><strong>Question:</strong> <code>4.2..toString</code></p>
+        <p><strong>問題：</strong> <code>4.2..toString</code></p>
         <p><strong>Anwser:</strong> //SyntaxError: Unexpected token .</p>
-        <p><strong>Question:</strong><code>42   .     toString()</code></p>
+        <p><strong>問題：</strong><code>42   .     toString()</code></p>
         <p><strong>Anwser:</strong> <code>"42"</code></p>        
-        <p><strong>Question:</strong> <code>typeof(NaN)</code></p>
+        <p><strong>問題：</strong> <code>typeof(NaN)</code></p>
         <p><strong>Anwser:</strong>"number"</p>
-        <p><strong>Question:</strong> <code>2 in [1,2]</code></p>
+        <p><strong>問題：</strong> <code>2 in [1,2]</code></p>
         <p><strong>Anwser:</strong> false. Because "in" returns whether a particular property/index available in the Object. In this case object has index 0 and 1 but don't have 2. Hence you get false.</p>
       </div>            
       <div id="insertSpace">
         <h2>12. log prefix</h2>        
-        <p><strong>Question: </strong> How could you set a prefix before everything you log? for example, if you <code>log('my message')</code> it will log: "(app) my message"</p>
-        <p><strong>Answer:</strong> Just get the arguments, convert it to an array and unshift whatever prefix you want to set. Finally, use apply to pass all the arguments to console.</p>
+        <p><strong>問題： </strong> How could you set a prefix before everything you log? for example, if you <code>log('my message')</code> it will log: "(app) my message"</p>
+        <p><strong>解答：</strong> Just get the arguments, convert it to an array and unshift whatever prefix you want to set. Finally, use apply to pass all the arguments to console.</p>
         <pre><code>
 function log(){
   var args = Array.prototype.slice.call(arguments);
@@ -458,7 +459,7 @@ log('my message', 'your message'); //(app) my message your message
       </div>
       <div id="scopeAndHoisting">
         <h2>13. Scope and hoisting</h2>
-        <p><strong>Question:</strong> What will you see in the console for the following example?</p>
+        <p><strong>問題：</strong> What will you see in the console for the following example?</p>
         <pre><code>
 var a = 1; 
 function b() { 
@@ -469,7 +470,7 @@ function b() {
 b(); 
 console.log(a);          
         </code></pre>
-        <p><strong>Answer:</strong> 1</p>
+        <p><strong>解答：</strong> 1</p>
         <h4>Explanation:</h4>
         <ul>
           <li>function declaration <code>function a(){}</code> is hoisted first and it behaves like <code>var a = function () {};</code>. Hence in local scope variable <code>a</code> is created.</li>
@@ -480,7 +481,7 @@ console.log(a);
         <div>
           <button id = "hoistingExtra" type="button" class="toggleExample btn btn-primary">Show Tough Example</button>
           <div id="hoistingExtraExample" class="hide bg-success toggleContent">
-            <p><strong>Question:</strong> for the following code, what will be returned for executing foo</p>        
+            <p><strong>問題：</strong> for the following code, what will be returned for executing foo</p>        
         <pre><code>
 function foo(){
     function bar() {
@@ -493,7 +494,7 @@ function foo(){
 }
 foo();//?
         </code></pre>
-          <p><strong>Answer:</strong> 8</p>
+          <p><strong>解答：</strong> 8</p>
           <p><strong>Explanation:</strong> As function declaration is get hoisted. the first bar is at the top and second bar after the return will also be hoisted. Since there is already a bar (first function declaration), the second one will replace the first one. As there could be one function for a single name and the last one stays. Hence, when you executing bar, you are executed the second one (after hoisting) and you get.</p>
           </div>          
         </div>
@@ -501,7 +502,7 @@ foo();//?
       </div>
       <div id="closure">
         <h2>14. Closures Inside Loops</h2>
-        <p><strong>Question:</strong> Look at the code below, you have a for loop if you have setTimeout inside it. If log the loop counter inside setTimeout, what will be logged?</p>
+        <p><strong>問題：</strong> Look at the code below, you have a for loop if you have setTimeout inside it. If log the loop counter inside setTimeout, what will be logged?</p>
 <pre><code>
   for(var i = 0; i < 10; i++) {
     setTimeout(function() {
@@ -509,7 +510,7 @@ foo();//?
     }, 10);
 }
 </code></pre>
-      <p><strong>Answer:</strong> The above will not output the numbers 0 through 9, but will simply print the number 10 ten times.</p>
+      <p><strong>解答：</strong> The above will not output the numbers 0 through 9, but will simply print the number 10 ten times.</p>
       <p><strong>Explanation:</strong> The console log is inside the anonymous function of setTimeout and setTimeout is executed when current call stack is over. So, the loop finishes and before setTimeout get the chance to execute. However, anonymous functions keep a reference to i by creating a closure. Since, the loop is already finished, the value i has been set to 10. When setTimeout use the value of i by reference, it gets the value of i as 10. Hence, you see 10 ten times.</p>
       <p><strong>Solution: </strong> You can fix it by avoiding closure. Just create a IIFE (Immediately Invoked Function Expression), it will create its own scope and you can pass i to the function. In that case i will be a local variable (will not refer to i in the closure) and value of the i in every loop will be preserved.</p>      
 <pre><code>
@@ -528,7 +529,7 @@ for(var i = 0; i < 10; i++) {
       </div>      
       <div id="deleteProperty">
         <h2>15. delete can delete but</h2>
-        <p><strong>Question:</strong> Look at the code below, I have a property in a object and I am creating a new object where I am setting it to a new value. If I delete that property what will i get if I try to access that property?</p>
+        <p><strong>問題：</strong> Look at the code below, I have a property in a object and I am creating a new object where I am setting it to a new value. If I delete that property what will i get if I try to access that property?</p>
         <pre><code>
 var myObject = {
     price: 20.99,
@@ -542,14 +543,14 @@ customObject.price = 19.99;
 delete customObject.price;
 console.log(customObject.get_price());
         </code></pre>
-        <p><strong>Answer:</strong> You will see 20.99</p>
+        <p><strong>解答：</strong> You will see 20.99</p>
         <p><strong>Explanation:</strong> This is very interesting question. When you create <code>object.create(myObject)</code> you are creating new object where the <code>myObject</code> will be the parent of the newly created object. Hence the price property will be at the parent.</p>
         <p>When you are assigning some value to <code>customObject.price</code>, you are creating a new property on the child. This means, when you <code>delete customObject.price</code> it deletes the <code>price</code> property in the customObject (in the child). However, when you call the method getprice, first it looks for <code>this.price</code> in the child since the customObject doesn't have price property, JavaScript executor walks through the prototype chain towards the parent. Since customObject was inherited from myObject and myObject has a <code>price</code> property, the get_price method returns the price from parent. Hence, you are getting 20.99</p>
       </div>
       <div id="byValueByRef"> 
         <h2>16. Pass by value or by reference</h2>
-        <p><strong>Question:</strong> Does JavaScript pass parameter by value or by reference?</p>
-        <p><strong>Answer:</strong> Primitive type (string, number, etc.) are passed by value and objects are passed by reference. If you change a property of the passed object, the change will be affected. However, you assign a new object to the passed object, the changes will not be reflected.</p>
+        <p><strong>問題：</strong> Does JavaScript pass parameter by value or by reference?</p>
+        <p><strong>解答：</strong> Primitive type (string, number, etc.) are passed by value and objects are passed by reference. If you change a property of the passed object, the change will be affected. However, you assign a new object to the passed object, the changes will not be reflected.</p>
         <pre><code>
 var num = 10,
     name = "Addy Osmani",
@@ -580,8 +581,8 @@ console.log(obj3.value);//"new value"
       </div>
       <div id="memoization">
         <h2>17. memoization</h2>
-        <p><strong>Question:</strong> How could you implement cache to save calculation time for a recursive fibonacci function?</p>
-        <p><strong>Answer:</strong> You could use poor man's memoization with a global variable. If fibonacci is already calculated it is served from the global memo array otherwise it is calculated.</p>
+        <p><strong>問題：</strong> How could you implement cache to save calculation time for a recursive fibonacci function?</p>
+        <p><strong>解答：</strong> You could use poor man's memoization with a global variable. If fibonacci is already calculated it is served from the global memo array otherwise it is calculated.</p>
         <pre><code>
 var memo = [];
 
@@ -600,8 +601,8 @@ function _fibonacci(n) {
       </div>
       <div id="cacheFunction">
         <h2>18. Cache function execution</h2>
-        <p><strong>Question:</strong> How could you cache execution of any function?</p>
-        <p><strong>Answer:</strong> You could have a method where you will pass a function and it will internally maintain a cache object where calculated value will be cached. When you will call the function with same argument, the cached value will be served.</p>
+        <p><strong>問題：</strong> How could you cache execution of any function?</p>
+        <p><strong>解答：</strong> You could have a method where you will pass a function and it will internally maintain a cache object where calculated value will be cached. When you will call the function with same argument, the cached value will be served.</p>
         <pre><code>
 function cacheFn(fn) {
     var cache={};
@@ -617,8 +618,8 @@ function cacheFn(fn) {
     }
 }
         </code></pre>
-        <p><strong>Question:</strong> What if you are passing more than one argument?</p>
-        <p><strong>Answer: </strong> First we have to use arguments to get all the parameters passed to the function and then we can generate key for the cache object. Generating key for the cache object could be tricky and one solution could be just get the all the parameters and concatenate those. Look at the code below.</p>
+        <p><strong>問題：</strong> What if you are passing more than one argument?</p>
+        <p><strong>解答： </strong> First we have to use arguments to get all the parameters passed to the function and then we can generate key for the cache object. Generating key for the cache object could be tricky and one solution could be just get the all the parameters and concatenate those. Look at the code below.</p>
         <pre><code>
 return function(){
   var args = arguments;  
@@ -635,7 +636,7 @@ return function(){
       </div>
       <div id="chianing">
         <h2>19. JQuery style chaining</h2>
-        <p><strong>Question:</strong> If you need to implement the following chaining with call back, how will you implement it?</p>
+        <p><strong>問題：</strong> If you need to implement the following chaining with call back, how will you implement it?</p>
         <pre><code>
 function slow(callback) {
     setTimeout(function(){
@@ -670,8 +671,8 @@ obj.first().second().third();
       </div>
       <div id="animation">
         <h2>20. Animation</h2>
-        <p><strong>Question: </strong>How could you implement moveLeft animation?</p>
-        <p><strong>Answer:</strong> Use setInterval that will place the element to the left position by some pixels in every 10ms. Hence, you will see the element moving towards the desired position. When you call setInterval, it returns a timeId. After reaching the desired location, you have to clear the time interval so that function will not be called again and again in every 10ms.</p>
+        <p><strong>問題： </strong>How could you implement moveLeft animation?</p>
+        <p><strong>解答：</strong> Use setInterval that will place the element to the left position by some pixels in every 10ms. Hence, you will see the element moving towards the desired position. When you call setInterval, it returns a timeId. After reaching the desired location, you have to clear the time interval so that function will not be called again and again in every 10ms.</p>
         <pre><code>
 function moveLeft(elem, distance) {
   var left = 0;
@@ -690,7 +691,7 @@ function moveLeft(elem, distance) {
       </div>
       <div id ="currying">
         <h2>21. Currying</h2>
-        <p><strong>Question:</strong> How would you implement currying for any functions?</p>
+        <p><strong>問題：</strong> How would you implement currying for any functions?</p>
         <p><strong>What is curring:</strong> Curring is partial invocation of a function. Currying means first few arguments of a function is pre-processed and a function is returned. The returning function can add more arguments to the curried function. It's like if you have given one or two spice to the curry and cooked little bit, still you can add further spice to it. A simple example will look like-</p>
         <pre><code>
 function addBase(base){
@@ -705,7 +706,7 @@ addTen(80); //90
 addTen(-5); //5
         </code></pre>
         <p><strong>Explanation:</strong> You are creating a closure that return a function. When you are curring with a new number, new number is added to the base you have provided.</p>
-        <p><strong>Answer: </strong> You can add a curry method to the prototype of Function. If now parameters is passed to curry, you simply return the current function. If you have provided arguments to curry there are two steps</p>
+        <p><strong>解答： </strong> You can add a curry method to the prototype of Function. If now parameters is passed to curry, you simply return the current function. If you have provided arguments to curry there are two steps</p>
         <ul>
           <li><strong>Step-1:</strong> Concatenate old arguments (provided while creating curry), with new arguments (added after cooking little bit) by using <code> args.concat(toArray(arguments))</code></li>
           <li><strong>Step-2:</strong> Pass all the arguments to the function by using apply.</li>
@@ -744,9 +745,9 @@ kgToLb(3); //result here
       <div>
         <h3>Deleted Questions</h3>
         <ul>
-          <li>In JavaScript <code>isNaN(undefined)</code> returns true. how could you fix it? Answer: use <code>function isReallyNaN (x){return x!==x;}</code></li>
+          <li>In JavaScript <code>isNaN(undefined)</code> returns true. how could you fix it? 解答： use <code>function isReallyNaN (x){return x!==x;}</code></li>
           <li>What are differences between host object and native object? <a href="http://stackoverflow.com/a/7614380/1535443">read answer here</a></li>          
-          <li>Why extending build in JavaScript object is a bad idea? Answer: google it</li>
+          <li>Why extending build in JavaScript object is a bad idea? 解答： google it</li>
           <li>How will you get query string in a browsers URL? <a href="http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript?page=3&tab=votes#tab-top">detail answer</a> or <code>window.location.search;</code></li>
           <li>Why does nearly every object have a toString method?</li>
           <li>Why Everything in JavaScript acts like an object, with the only two exceptions being null and undefined?</li>

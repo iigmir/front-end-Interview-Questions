@@ -1,77 +1,77 @@
-front end Interview Questions
+前端面試問題
 =============================
 -------
-To rock the interview to achieve what you deserve and to improve your concepts about front end technologies, I have consolidated a list of questions and answers. It's a one stop solution for front end interview process.
+為了能讓在你應得的面試的時候 rock 起來、也為了增進你前端的技術，我把幾個問答的列表併起來了。It's a one stop solution for front end interview process.
 
 
 
-##[JavaScript: Basics and Tricky Questions](http://www.thatjsdude.com/interview/js2.html)
-21+ questions and answers (for intermediate)
+##[JavaScript：基本問題與棘手問題](http://www.thatjsdude.com/interview/js2.html)
+21 個以上的問答（給中階）
 __________________
-1. What are the differences between ` null ` and ` undefined `?
-2. What are the differences between `==` and `===`?
-3. How would you compare two objects in JavaScript?
-4. 11+ true false related questions that will trick you.
-5. As `[]` is true, `[] == true` should also be true. right?
-6. How could you write a method on instance of a date which will give you next day?
-7. If you want to use an arbitrary object as value of this, how will you do that?
-8. Write a simple function to tell whether 2 is passed as parameter or not?
-9. How could you use Math.max to find the max value in an array?
-10. What the heck is this in JavaScript?
-11. 21 quick questions that will trick you.
+1. ` null ` 與 ` undefined ` 有什麼不同？
+2. `==` 與 `===`有什麼不同？
+3. 在 JavaScript 要怎麼比對兩個物件？
+4. 11 個以上來坑你的 true false 值問題。
+5. 因為 `[]` 是 true，所以 `[] == true` 也會是 true，對嗎？
+6. 如何實做一個能給你明天日期的方法？
+7. 如果你想用一個值是 this 的任意物件，怎麼做？
+8. 寫個簡單的函式來告訴我 2 是否作為參數傳遞？
+9. 要怎麼用 Math.max 找出陣列的最大值？
+10. JavaScript 的 this 到底是啥鬼？
+11. 21 個來坑你的簡答題。
 12. How could you set a prefix before everything you log? for example, if you log('my message') it will log: "(app) my message"
-13. What will you see in the console for the following example?
-14. Look at the code below, you have a for loop if you have setTimeout inside it. If log the loop counter inside setTimeout, what will be logged?
-15. Look at the code below, I have a property in a object and I am creating a new object where I am setting it to a new value. If I delete that property what will i get if I try to access that property?
-16. Does JavaScript pass parameter by value or by reference?
-17. How could you implement cache to save calculation time for a recursive fibonacci function?
+13. 下面的例子，你會從 console 看到什麼？
+14. 看看下面的程式碼，如果你有個 setTimeout 你就會有個 for 迴圈。如果我紀錄 loop counter 的話，什麼東西會被記下來？
+15. 看看下面的程式碼，這個物件有個屬性，而我還要建立個設為新值的新物件。如果我刪除那個屬性，當我試圖探訪該屬性的話，會發生什麼事？
+16. JavaScript 是透過 value 還是 reference 傳遞參數 by value or by reference?
+17. 如何實做 cache，能儲存遞歸型斐波那契函式的計算次數？
 18. How could you cache execution of any function?
-19. If you need to implement the following chaining with call back, how will you implement it?
-20. How could you implement moveLeft animation?
-21. How would you implement currying for any functions? 
+19. 如何實做下面的 chaining 並包含 call back？
+20. 如何實做 moveLeft 動畫？
+21. 如何實做函式的 currying？
 
-####[JS: Answer for Basics and Tricky Questions](http://www.thatjsdude.com/interview/js2.html)
+####[JavaScript：基本問題與棘手問題的解答](http://www.thatjsdude.com/interview/js2.html)
 
 
 
-##[css: Basics and Tricky Questions](http://www.thatjsdude.com/interview/css.html)
-21+ questions and answers
+##[CSS：基本問題與棘手問題](http://www.thatjsdude.com/interview/css.html)
+21 個以上的問答
 ____________
-1. What does float do?
-1. How can you clear sides of a floating element?
-  1. How can you clear sides of a floating element?
-1. some tricky questions in rapid fire style
-  1. Does css properties are case sensitive?
-  1. Why css selectors mixed up with cases don't apply the styles?
-  1. Does margin-top or margin-bottom has effect on inline element?
-  1. Does padding-top or padding-bottom has effect on inline element?
-  1. Does padding-left or padding-right or margin-left or margin-right has effect on inline element?
-  1. If you have a &lt;p&gt; element with font-size: 10rem, will the text be responsive when the user resizes / drags the browser window?
-  1. The pseudo class :checked will select inputs with type radio or checkbox, but not &lt;option&gt; elements.
-  1. In a HTML document, the pseudo class :root always refers to the &lt;html&gt; element.
-  1. The translate() function can move the position of an element on the z-axis.
-1. Which one would you prefer among px, em % or pt and why?
-1. How absolute, relative, fixed and static position differ?
-1. What are the differences between visibility hidden and display none?
-1. What are the differences between inline, block and inline-block?
-1. What are the properties related to box model?
-1. Does overflow: hidden create a new block formatting context?
-1. How could you apply css rules specific to a media?
-  1. What is the use of only?
-  1. Does the screen keyword apply to the device's physical screen or the browser's viewport?
-1. What are the some pseudo classed u have used?
-1. How do you align a p center-center inside a div?
-1. How do you optimize css selectors?
-1. How can you load css resources conditionally?
-1. Why would you use sprites?
-1. What is specificity? How do u calculate specificity?
-1. What is shadow DOM?
-1. What do you know about transition?
-1. What are the different css filter you can use?
-1. What are the reasons to use preprocessor?
-1. [Show you couple of style example and you have to tell what does it do](http://www.thatjsdude.com/interview/css.html#seeAndTell).
+1. float 幹什麼的？
+1. 如何清除兩邊的 floating 元素？
+    1. 如何清除兩邊的 floating 元素？
+1. 快問快答快搞你
+    1. CSS 屬性區分大小寫嗎？
+    1. 為何混了大小寫的 CSS 選擇器無法套用其樣式？
+    1. 行內元素會受到 margin-top 或 margin-bottom 影響嗎？
+    1. 行內元素會受到 padding-top 或 padding-bottom 影響嗎？
+    1. 那行內元素會受到 padding-left、padding-right、margin-left、margin-right 影響嗎？
+    1. 如果你的 &lt;p&gt; 元素有個 font-size: 10rem，它會在用戶調整大小/拖拽瀏覽器視窗時，響應其畫面嗎？
+    1. 虛擬 class :checked 會選取含有 type radio 或 checkbox 的 inputs，但不……
+    1. 在 HTML 文件中，虛擬 class :root 永遠參照元素。
+    1. translate() 函式能在 z 軸移動元素的 position。
+1. 你喜歡用 px、em、%、抑或 pt？為什麼？
+1. absolute、relative、fixed、static 這些 position 有什麼不同？
+1. visibility hidden 與 display none 有什麼不同？
+1. inline、block、inline-block 有什麼不同？
+1. 什麼是 box model 相關屬性？
+1. overflow: hidden 會建立新的 block 內容嗎？
+1. 如何針對特定媒體設定 CSS 規則？
+    1. only 有什麼用？
+    1. screen 一詞，是以設備的物理螢幕為準，還是瀏覽器的 viewport 為準？
+1. 你用過什麼虛擬 classed ？
+1. 如何令 div 裡面的 p 元素能水平對齊加垂直對齊？
+1. 如何最佳化 CSS 選擇器？
+1. 如何有條件的載入 CSS？
+1. 你為什麼用 sprites？
+1. 優先級（Specificity）是什麼？如何計算優先級？
+1. 影子 DOM（Shadow DOM）是什麼？
+1. 你知道 transition 的什麼？
+1. 你能用哪些不同的 CSS filter？
+1. 為什麼用 CSS preprocessor？
+1. [給你兩個樣式的範例然後問你這幹嘛的](http://www.thatjsdude.com/interview/css.html#seeAndTell)
 
-####[CSS: Answer for Basics and Tricky Questions](http://www.thatjsdude.com/interview/css.html)
+####[CSS：基本問題與棘手問題的解答](http://www.thatjsdude.com/interview/css.html)
 
 ###css Deleted questions!
 Looks like these are for hardcore designer. Hence, didn't make for developers.
