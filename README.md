@@ -68,7 +68,7 @@ ____________
 1. 影子 DOM（Shadow DOM）是什麼？
 1. 你知道 transition 的什麼？
 1. 你能用哪些不同的 CSS filter？
-1. 為什麼用 CSS preprocessor？
+1. 為什麼要用 CSS 預處理器（CSS preprocessor）？
 1. [給你兩個樣式的範例然後問你這幹嘛的](http://www.thatjsdude.com/interview/css.html#seeAndTell)
 
 ####[CSS：基本問題與棘手問題的解答](http://www.thatjsdude.com/interview/css.html)
